@@ -7,14 +7,13 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 ### The challenge
 
 
-![](![desktop size](https://user-images.githubusercontent.com/100580688/187072714-c43065b2-c5a1-4bd0-9c68-6f7652086651.PNG))
-![](![mobile-size](https://user-images.githubusercontent.com/100580688/187072754-32200a7b-4b7a-4d68-89a6-4f41385bad35.png)
-)
+(![desktop size](https://user-images.githubusercontent.com/100580688/187072714-c43065b2-c5a1-4bd0-9c68-6f7652086651.PNG))
+(![mobile-size](https://user-images.githubusercontent.com/100580688/187072754-32200a7b-4b7a-4d68-89a6-4f41385bad35.png))
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (![https://your-solution-url.com])
+- Live Site URL: (![https://shaqayeq-kordloo.github.io/Testimonials-grid-section/])
 
 ## My process
 
