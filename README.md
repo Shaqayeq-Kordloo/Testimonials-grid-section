@@ -25,9 +25,9 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Useful resources
 
-- ![https://stackoverflow.com/]
-- ![https://www.w3schools.com/]
+- https://stackoverflow.com/
+- https://www.w3schools.com/
 ## Author
 
-- Website - ![https://github.com/Shaqayeq-Kordloo/Testimonials-grid-section](my github)
+- Website - https://github.com/Shaqayeq-Kordloo/Testimonials-grid-section
 
