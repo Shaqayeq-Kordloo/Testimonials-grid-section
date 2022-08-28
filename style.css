@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+h2 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-bottom: 16px;
+  margin-top: 30px;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  row-gap: 24px;
+  justify-content: center;
+}
+
+.card {
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px #cfcfcf;
+}
+
+.card p {
+  line-height: 18px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+.info {
+  margin-left: 10px;
+  line-height: 20px;
+}
+
+.card .info p {
+  font-size: 11px;
+  opacity: 50%;
+}
+
+.first {
+  background-color: #733fc8;
+  color: #ffffff;
+  grid-column: 1/3;
+  position: relative;
+  z-index: 1;
+}
+
+.first .pattern {
+  content: url(./images/bg-pattern-quotation.svg);
+  position: absolute;
+  top: 0;
+  right: 80px;
+  z-index: -1;
+  width: 150px;
+  height: 148px;
+}
+
+.first p {
+  opacity: 70%;
+}
+
+.second {
+  background-color: #48556a;
+  color: #ffffff;
+}
+
+.second p {
+  opacity: 70%;
+}
+
+.third {
+  color: #48556a;
+  background-color: #ffffff;
+  grid-column: 4/5;
+  grid-row: span 2;
+}
+
+.third h5 {
+  color: #48556a;
+}
+
+.third p {
+  opacity: 70%;
+}
+
+.forth {
+  background-color: #ffffff;
+}
+
+.forth h5 {
+  color: #48556a;
+}
+
+.forth p {
+  opacity: 70%;
+}
+
+.fifth {
+  background-color: #19202d;
+  grid-column: span 2;
+  color: #ffffff;
+}
+
+.fifth p {
+  opacity: 70%;
+}
+
+@media only screen and (max-width: 1115px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 40px auto;
+  }
+  .third {
+    order: 5;
+  }
+}
